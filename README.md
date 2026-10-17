@@ -27,3 +27,8 @@ python -m unittest discover -p "test_*.py" -v
 
 Git is used to track changes in test scripts.
 GitHub is used for remote repository collaboration.
+
+## Latest Update
+
+Added an empty-password login test and updated project documentation.
+
