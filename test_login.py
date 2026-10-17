@@ -17,6 +17,12 @@ class TestLogin(unittest.TestCase):
         result = login("student", "wrong123")
         self.assertEqual(result, "Invalid Credentials")
 
+        
+    def test_empty_password(self):
+        result = login("student", "")
+        self.assertEqual(result, "Invalid Credentials")
+
+
 
 if __name__ == "__main__":
     unittest.main()
